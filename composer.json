@@ -1,0 +1,20 @@
+{
+    "name": "Myframework",
+    "require":{
+        "php": ">= 7.0"
+    },
+    "authors": [
+        {
+            "name": "DLB",
+            "email": "diego.maustem@gmail.com"
+
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\":"App/",
+            "MF\\": "vendor/MF/"
+        }
+    }
+
+}
